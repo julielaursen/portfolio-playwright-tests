@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-playwright-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/julielaursen/portfolio-playwright-tests.git",
+  "author": "Julie Laursen <julielaursen1@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.2"
+  },
+  "scripts": {}
+}
