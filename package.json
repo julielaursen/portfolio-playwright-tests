@@ -6,8 +6,11 @@
   "author": "Julie Laursen <julielaursen1@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@playwright/mcp": "^0.0.29",
     "@playwright/test": "^1.52.0",
     "@types/node": "^22.15.2"
   },
-  "scripts": {}
+  "scripts": {
+    "mcp": "npx @playwright/mcp --prompt=.github/prompts/test.prompt.md"
+  }
 }
