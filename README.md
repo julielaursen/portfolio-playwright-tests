@@ -6,13 +6,15 @@ This test automation suite is designed to verify the functionality of [Julie's p
 
 ## Table of Contents
 
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Running Tests](#running-tests)
-- [Reporting](#reporting)
-- [Continuous Integration](#continuous-integration)
-- [Contributing](#contributing)
+- [Portfolio Test Automation](#portfolio-test-automation)
+  - [Project Overview](#project-overview)
+  - [Table of Contents](#table-of-contents)
+  - [Technologies Used](#technologies-used)
+  - [Project Structure](#project-structure)
+  - [Installation](#installation)
+  - [Running Tests](#running-tests)
+  - [Reporting](#reporting)
+  - [Continuous Integration](#continuous-integration)
 
 ## Technologies Used
 
@@ -54,7 +56,7 @@ portfolio-test-automation/
 To run all tests, use the following command:
 
 ```
-TBD
+yarn playwright test
 ```
 
 ## Reporting
@@ -62,7 +64,7 @@ TBD
 To generate a HTML test report, use the following command:
 
 ```
-TBD
+yarn playwright test --reporter=html
 ```
 
 ## Continuous Integration
